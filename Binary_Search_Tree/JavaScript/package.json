@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "babel-cli": "^6.0.0",
+        "babel-preset-es2015": "^6.0.0"
+    },
+    "scripts": {
+        "start": "babel-node --presets es2015 BST.js",
+        "test": "mocha tests.js --compilers js:babel-register"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0"
+    }
+}
